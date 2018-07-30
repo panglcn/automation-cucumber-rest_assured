@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.buschmais.jqassistant.core:jqassistant.core.store:1.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buschmais/jqassistant/core/jqassistant.core.store/1.2.0-SNAPSHOT/jqassistant.core.store-1.2.0-20160703.164600-85.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buschmais/jqassistant/core/jqassistant.core.store/1.2.0-SNAPSHOT/jqassistant.core.store-1.2.0-20160703.164600-85-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buschmais/jqassistant/core/jqassistant.core.store/1.2.0-SNAPSHOT/jqassistant.core.store-1.2.0-20160703.164600-85-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

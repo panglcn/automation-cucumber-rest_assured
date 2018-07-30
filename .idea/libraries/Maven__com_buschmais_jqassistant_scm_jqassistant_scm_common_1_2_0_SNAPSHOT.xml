@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.buschmais.jqassistant.scm:jqassistant.scm.common:1.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buschmais/jqassistant/scm/jqassistant.scm.common/1.2.0-SNAPSHOT/jqassistant.scm.common-1.2.0-20160703.165039-57.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buschmais/jqassistant/scm/jqassistant.scm.common/1.2.0-SNAPSHOT/jqassistant.scm.common-1.2.0-20160703.165039-57-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buschmais/jqassistant/scm/jqassistant.scm.common/1.2.0-SNAPSHOT/jqassistant.scm.common-1.2.0-20160703.165039-57-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

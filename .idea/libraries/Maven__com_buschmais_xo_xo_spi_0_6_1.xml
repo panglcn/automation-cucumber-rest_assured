@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.buschmais.xo:xo.spi:0.6.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buschmais/xo/xo.spi/0.6.1/xo.spi-0.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buschmais/xo/xo.spi/0.6.1/xo.spi-0.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/buschmais/xo/xo.spi/0.6.1/xo.spi-0.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

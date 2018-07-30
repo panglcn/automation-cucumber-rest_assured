@@ -1,0 +1,13 @@
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/helpers/CommonActions.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/pages_object/HomePage.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/steps_definition/Hooks.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/pages_object/AuthenticationPage.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/steps_definition/APISteps.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/pages_object/GenericPage.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/helpers/CommonFunctions.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/helpers/WaitUtils.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/helpers/Log.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/helpers/ReadDataFile.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/pages_object/MyAccountPage.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/steps_definition/LoginSteps.java
+/Users/xuyenauto/Documents/Xuyen/Build framework/src/test/java/steps_definition/RunCukesTest1.java

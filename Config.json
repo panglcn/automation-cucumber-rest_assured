@@ -1,0 +1,8 @@
+{
+  "Constant": {
+    "test_type": "api",
+    "url": "http://automationpractice.com/index.php",
+    "grid_hub": "",
+    "time_out_second": 20
+  }
+}
