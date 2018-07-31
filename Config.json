@@ -1,6 +1,7 @@
 {
   "Constant": {
-    "test_type": "api",
+    "test_type": "ui",
+    "browser": "chrome",
     "url": "http://automationpractice.com/index.php",
     "grid_hub": "",
     "time_out_second": 20
