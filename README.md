@@ -1,7 +1,8 @@
 What is this repository for?
+https://github.com/xuyenauto/automation-cucumber-rest_assured.git
 
 Summary:
-This framework using Cucumber + Selenium (Java) + Page Object Pattern + Rest-assured + Maven
+The framework using Cucumber + Selenium (Java) + Page Object Pattern + Rest-assured + Maven
 to automate web application and api testing
 
 Before run tests

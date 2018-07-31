@@ -58,6 +58,12 @@ public class ReadDataFile {
     }
 
 
+    /**
+     * data should put under /src/test/resources/data
+     * @param fileName
+     * @param sheetName
+     * @return
+     */
     public ArrayList<List> readExcelFile(String fileName, String sheetName) {
         String rootPath = System.getProperty("user.dir");
         String path = "/src/test/resources/data/";

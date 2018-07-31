@@ -38,7 +38,7 @@ public class AuthenticationPage extends GenericPage {
     }
 
     public void clickOnLogin(){
-        CommonActions.click(driver,signIn);
+        CommonActions.clickByJS(driver,signIn);
     }
 
     public String getErrorMessage(){

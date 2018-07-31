@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import static helpers.CommonActions.click;
+import static helpers.CommonActions.clickByJS;
 
 /**
  * Created by XuyenTran on 7/27/18.
@@ -25,7 +25,7 @@ public class HomePage extends GenericPage{
     }
 
     public void clickOnSignIn(){
-        click(driver,signInBtn);
+        clickByJS(driver,signInBtn);
     }
 
 

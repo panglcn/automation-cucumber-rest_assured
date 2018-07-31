@@ -1,8 +1,6 @@
 package helpers;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.remote.LocalFileDetector;
-import org.openqa.selenium.remote.RemoteWebElement;
 import steps_definition.Hooks;
 
 import static helpers.WaitUtils.waitForElementClickable;
@@ -70,68 +68,11 @@ public class CommonActions extends Hooks{
         }
     }
 
-    public static boolean isRadioButtonChecked(WebDriver driver, WebElement element) {
-        waitForElementPresent(driver,element);
-        String jQuerySelector = "arguments[0]";
-        String check = ((JavascriptExecutor) driver)
-                .executeScript("return $(" + jQuerySelector + ").is(':checked')", element).toString();
-        if (check.equals("false")) {
-            return false;
-        }
-        return true;
-    }
-
-    public static void acceptAlert(){
-        Alert alert = driver.switchTo().alert();
-        alert.accept();
-    }
-
-
-    public static void click(WebDriver driver, WebElement element){
-        waitForElementClickable(driver,element);
-        scrollToElement(element);
-        element.click();
-    }
-
     public static void scrollToElement(WebElement el) {
         if (driver instanceof JavascriptExecutor) {
             ((JavascriptExecutor) driver)
                     .executeScript("arguments[0].scrollIntoView(true);", el);
         }
-    }
-
-    public static boolean isEnableElement(WebDriver driver, WebElement element, boolean expected){
-        if(expected){
-            waitForElementClickable(driver,element);
-        }
-        try {
-            return element.isEnabled();
-        } catch (Exception e) {
-            return false;
-        }
-    }
-
-    public static void scrollToTop(WebDriver driver){
-        JavascriptExecutor javascript = (JavascriptExecutor) driver;
-        javascript.executeScript("window.scrollBy(0,-900)", "");
-    }
-
-    public static void scrollToMidde(WebDriver driver){
-        JavascriptExecutor javascript = (JavascriptExecutor) driver;
-        javascript.executeScript("window.scrollBy(0,500)", "");
-    }
-
-
-    public static void scrollToDown(WebDriver driver){
-        JavascriptExecutor javascript = (JavascriptExecutor) driver;
-        javascript.executeScript("window.scrollBy(0,990)", "");
-    }
-
-    public static void uploadFile(WebDriver driver, String filePath, By by) throws Throwable {
-        System.out.println("Upload file.....");
-        WebElement el = driver.findElement(by);
-        ((RemoteWebElement) el).setFileDetector(new LocalFileDetector());
-        el.sendKeys(" " + filePath);
     }
 
     public static String getCurrentOperation(){
@@ -152,11 +93,6 @@ public class CommonActions extends Hooks{
         setText(element,value);
         element.sendKeys(Keys.ESCAPE);
     }
-
-    public static String getAttribute( WebElement element, String attribute){
-        return element.getAttribute(attribute);
-    }
-
 
     public static boolean isEnableElementBy(WebDriver driver, By by, boolean expected){
         if(expected){
