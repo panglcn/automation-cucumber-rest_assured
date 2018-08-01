@@ -28,5 +28,4 @@ public class HomePage extends GenericPage{
         clickByJS(driver,signInBtn);
     }
 
-
 }

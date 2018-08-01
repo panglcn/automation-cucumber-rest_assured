@@ -28,6 +28,7 @@ public class Hooks {
     String url = readDataFile.readJsonFile("/Config.json","Constant","url");
     String gird_hub = readDataFile.readJsonFile("/Config.json","Constant","grid_hub");
     String testType = readDataFile.readJsonFile("/Config.json","Constant","test_type");
+    String remote = readDataFile.readJsonFile("/Config.json","Constant","remote");
 
     @Before
     public WebDriver setupDriver() {
@@ -37,9 +38,7 @@ public class Hooks {
             DesiredCapabilities capability = new DesiredCapabilities();
             capability.setJavascriptEnabled(true);
 
-            String browser = System.getProperty("webdriver");
-
-            if (browser == null || browser.equalsIgnoreCase("") || browser.equalsIgnoreCase("InternetExplorer")) {
+            if (remote.equals("no")) {
                 ChromeDriverManager.getInstance().arch64().setup();
                 driver = new ChromeDriver(capability);
             } else {

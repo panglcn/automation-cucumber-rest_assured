@@ -1,6 +1,6 @@
 Feature: API test
 
-  Using  http://restapi.demoqa.com/utilities/weather/city/<City> for api testing
+  Using website http://restapi.demoqa.com/utilities/weather/city/<City> for api testing
 
   Background:
     Given user has the api to check the weather conditions as "http://restapi.demoqa.com/utilities/weather/city/"

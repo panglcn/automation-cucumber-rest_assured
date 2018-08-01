@@ -2,6 +2,7 @@
   "Constant": {
     "test_type": "ui",
     "browser": "chrome",
+    "remote": "no",
     "url": "http://automationpractice.com/index.php",
     "grid_hub": "",
     "time_out_second": 20

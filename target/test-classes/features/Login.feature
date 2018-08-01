@@ -1,5 +1,7 @@
 Feature: Login
 
+  Using website http://automationpractice.com/index.php for example
+
   Background:
     Given user is on the authentication page
 

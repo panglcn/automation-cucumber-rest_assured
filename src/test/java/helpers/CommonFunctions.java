@@ -3,8 +3,6 @@ package helpers;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Random;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Created by XuyenTran on 7/27/18.
@@ -44,14 +42,4 @@ public class CommonFunctions {
     }
 
 
-    public static String removeSpecialCharacter(String text){
-        Pattern pt = Pattern.compile("[£$&+,:;=?@#|'<>.^*()%!]");
-        Matcher match= pt.matcher(text);
-        while(match.find())
-        {
-            String s= match.group();
-            text=text.replaceAll("\\"+s, "");
-        }
-        return text;
-    }
 }
